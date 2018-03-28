@@ -1,0 +1,278 @@
+************* Module main
+C: 20, 0: Wrong continued indentation (remove 1 space).
+                }
+               |^ (bad-continuation)
+C:117, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:198, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:231, 0: Line too long (149/100) (line-too-long)
+W:235, 0: Unnecessary semicolon (unnecessary-semicolon)
+C:263, 0: Line too long (127/100) (line-too-long)
+C:265, 0: Line too long (127/100) (line-too-long)
+C:273, 0: Line too long (127/100) (line-too-long)
+C:275, 0: Line too long (127/100) (line-too-long)
+C:396, 0: Line too long (104/100) (line-too-long)
+C:399, 0: Line too long (123/100) (line-too-long)
+C:489, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:512, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:514, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:518, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 45, 0: Invalid function name "inBounds" (invalid-name)
+C: 45, 0: Invalid argument name "x" (invalid-name)
+C: 45, 0: Invalid argument name "y" (invalid-name)
+C: 45, 0: Missing function docstring (missing-docstring)
+R: 46, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+W: 59,-1: String statement has no effect (pointless-string-statement)
+C: 60, 0: Invalid function name "promptConfiguration" (invalid-name)
+C: 60, 0: Missing function docstring (missing-docstring)
+W: 61,14: Used builtin function 'input' (bad-builtin)
+W: 72,-1: String statement has no effect (pointless-string-statement)
+C: 73, 0: Invalid function name "createPiece" (invalid-name)
+C: 75, 4: Invalid variable name "pieceType" (invalid-name)
+C: 77, 4: Invalid variable name "posHoriz" (invalid-name)
+C: 78, 4: Invalid variable name "posVert" (invalid-name)
+C: 79, 4: Invalid variable name "thisPiece" (invalid-name)
+W: 91,-1: String statement has no effect (pointless-string-statement)
+C: 92, 0: Invalid function name "parseConfigurations" (invalid-name)
+C: 92, 0: Invalid argument name "configList" (invalid-name)
+C: 92, 0: Missing function docstring (missing-docstring)
+C: 94, 8: Invalid variable name "newPiece" (invalid-name)
+W:110,-1: String statement has no effect (pointless-string-statement)
+C:111, 0: Invalid function name "initBoard" (invalid-name)
+C:111, 0: Invalid argument name "whitePieces" (invalid-name)
+C:111, 0: Invalid argument name "blackPieces" (invalid-name)
+C:111, 0: Missing function docstring (missing-docstring)
+W:112,51: Unused variable 'y' (unused-variable)
+W:112,23: Unused variable 'x' (unused-variable)
+W:130,-1: String statement has no effect (pointless-string-statement)
+C:131, 0: Invalid function name "findPiece" (invalid-name)
+C:131, 0: Invalid argument name "piecesList" (invalid-name)
+C:131, 0: Invalid argument name "pieceConfig" (invalid-name)
+C:131, 0: Missing function docstring (missing-docstring)
+W:151,-1: String statement has no effect (pointless-string-statement)
+C:152, 0: Invalid function name "isKingExposed" (invalid-name)
+C:152, 0: Invalid argument name "kingColor" (invalid-name)
+C:152, 0: Invalid argument name "blackPieces" (invalid-name)
+C:152, 0: Invalid argument name "whitePieces" (invalid-name)
+C:152, 0: Missing function docstring (missing-docstring)
+C:155, 4: Invalid variable name "attackerPieces" (invalid-name)
+C:157, 8: Invalid variable name "attackedPieces" (invalid-name)
+C:170, 8: Invalid variable name "allowedMoves" (invalid-name)
+W:157, 8: Unused variable 'attackedPieces' (unused-variable)
+W:190,-1: String statement has no effect (pointless-string-statement)
+C:191, 0: Invalid function name "listMoves" (invalid-name)
+C:191, 0: Invalid argument name "pieceConfig" (invalid-name)
+C:191, 0: Invalid argument name "checkKing" (invalid-name)
+C:191, 0: Invalid argument name "checkForCheck" (invalid-name)
+C:191, 0: Missing function docstring (missing-docstring)
+R:191, 0: Too many local variables (16/15) (too-many-locals)
+C:193, 4: Invalid variable name "myColor" (invalid-name)
+C:196, 8: Invalid variable name "myColor" (invalid-name)
+C:209, 8: Invalid variable name "allowedMoves" (invalid-name)
+C:210, 8: Invalid variable name "allowedMoves" (invalid-name)
+C:220, 4: Invalid variable name "allowedMoves" (invalid-name)
+C:225,12: Invalid variable name "d" (invalid-name)
+C:231,12: Invalid variable name "moveValid" (invalid-name)
+W:252,-1: String statement has no effect (pointless-string-statement)
+C:253, 0: Invalid function name "checkPawnMoves" (invalid-name)
+C:253, 0: Invalid argument name "myColor" (invalid-name)
+C:253, 0: Invalid argument name "y" (invalid-name)
+C:253, 0: Invalid argument name "x" (invalid-name)
+C:253, 0: Missing function docstring (missing-docstring)
+C:254, 4: Invalid variable name "pawnMoves" (invalid-name)
+W:288,-1: String statement has no effect (pointless-string-statement)
+C:289, 0: Invalid function name "findKing" (invalid-name)
+C:289, 0: Missing function docstring (missing-docstring)
+W:303,-1: String statement has no effect (pointless-string-statement)
+C:304, 0: Invalid function name "decodePosition" (invalid-name)
+C:304, 0: Missing function docstring (missing-docstring)
+C:305, 4: Invalid variable name "posOut" (invalid-name)
+C:306, 4: Invalid variable name "posOut" (invalid-name)
+E:306,19: Undefined variable 'numberToLetterMap' (undefined-variable)
+W:317,-1: String statement has no effect (pointless-string-statement)
+C:318, 0: Invalid function name "createDecodedOutput" (invalid-name)
+C:318, 0: Invalid argument name "validMoves" (invalid-name)
+C:318, 0: Missing function docstring (missing-docstring)
+C:319, 4: Invalid variable name "decodedMoves" (invalid-name)
+C:321, 8: Invalid variable name "decodedMoves" (invalid-name)
+W:339,-1: String statement has no effect (pointless-string-statement)
+C:340, 0: Invalid function name "getCheckedKingColor" (invalid-name)
+C:340, 0: Invalid argument name "blackPieces" (invalid-name)
+C:340, 0: Invalid argument name "whitePieces" (invalid-name)
+C:340, 0: Missing function docstring (missing-docstring)
+C:344, 4: Invalid variable name "kingInCheck" (invalid-name)
+C:346, 8: Invalid variable name "kingInCheck" (invalid-name)
+C:348, 8: Invalid variable name "kingInCheck" (invalid-name)
+W:367,-1: String statement has no effect (pointless-string-statement)
+C:368, 0: Invalid function name "canMoveWithACheckToOpponent" (invalid-name)
+C:368, 0: Invalid argument name "pieceToMoveColor" (invalid-name)
+C:368, 0: Invalid argument name "blackPieces" (invalid-name)
+C:368, 0: Invalid argument name "whitePieces" (invalid-name)
+C:368, 0: Missing function docstring (missing-docstring)
+C:369, 4: Invalid variable name "checkResult" (invalid-name)
+W:394,-1: String statement has no effect (pointless-string-statement)
+C:396, 0: Invalid function name "validateMove" (invalid-name)
+C:396, 0: Invalid argument name "pieceConfig" (invalid-name)
+C:396, 0: Invalid argument name "y" (invalid-name)
+C:396, 0: Invalid argument name "x" (invalid-name)
+C:396, 0: Invalid argument name "myColor" (invalid-name)
+C:396, 0: Invalid argument name "blackPieces" (invalid-name)
+C:396, 0: Invalid argument name "whitePieces" (invalid-name)
+C:396, 0: Invalid argument name "checkKing" (invalid-name)
+C:396, 0: Invalid argument name "checkForCheck" (invalid-name)
+C:396, 0: Missing function docstring (missing-docstring)
+R:396, 0: Too many arguments (9/5) (too-many-arguments)
+W:396,17: Unused argument 'pieceConfig' (unused-argument)
+W:429,-1: String statement has no effect (pointless-string-statement)
+C:430, 0: Invalid function name "sameColor" (invalid-name)
+C:430, 0: Invalid argument name "y" (invalid-name)
+C:430, 0: Invalid argument name "x" (invalid-name)
+C:430, 0: Invalid argument name "myColor" (invalid-name)
+C:430, 0: Missing function docstring (missing-docstring)
+W:443,-1: String statement has no effect (pointless-string-statement)
+C:444, 0: Invalid function name "letterToNumber" (invalid-name)
+C:444, 0: Missing function docstring (missing-docstring)
+W:455,-1: String statement has no effect (pointless-string-statement)
+C:456, 0: Invalid function name "promptPieceToMove" (invalid-name)
+C:456, 0: Missing function docstring (missing-docstring)
+W:457,15: Used builtin function 'input' (bad-builtin)
+W:467,-1: String statement has no effect (pointless-string-statement)
+C:472, 8: Invalid attribute name "Color" (invalid-name)
+C:471, 8: Invalid attribute name "Type" (invalid-name)
+C:470, 8: Invalid attribute name "Config" (invalid-name)
+C:473, 8: Invalid attribute name "Pos" (invalid-name)
+C:468, 0: Missing class docstring (missing-docstring)
+R:468, 0: Too few public methods (0/2) (too-few-public-methods)
+W:486,-1: String statement has no effect (pointless-string-statement)
+C:487, 0: Invalid function name "printPieces" (invalid-name)
+C:487, 0: Invalid argument name "pieceList" (invalid-name)
+C:487, 0: Missing function docstring (missing-docstring)
+W:498,-1: String statement has no effect (pointless-string-statement)
+C:499, 0: Missing function docstring (missing-docstring)
+C:501, 8: Invalid variable name "whiteConfig" (invalid-name)
+C:502, 8: Invalid variable name "blackConfig" (invalid-name)
+C:503, 8: Invalid variable name "pieceToMove" (invalid-name)
+C:506, 8: Invalid variable name "x" (invalid-name)
+C:513, 4: Invalid variable name "validMoves" (invalid-name)
+W:506, 8: Unused variable 'x' (unused-variable)
+W:523,-1: String statement has no effect (pointless-string-statement)
+
+
+Report
+======
+204 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |2          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |20     |21         |-1.00      |5.00        |95.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    numpy (main)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |419    |79.66 |200      |+219.00    |
++----------+-------+------+---------+-----------+
+|docstring |26     |4.94  |11       |+15.00     |
++----------+-------+------+---------+-----------+
+|comment   |34     |6.46  |37       |-3.00      |
++----------+-------+------+---------+-----------+
+|empty     |47     |8.94  |50       |-3.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |120    |126      |-6.00      |
++-----------+-------+---------+-----------+
+|refactor   |4      |4        |=          |
++-----------+-------+---------+-----------+
+|warning    |29     |7        |+22.00     |
++-----------+-------+---------+-----------+
+|error      |1      |2        |-1.00      |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|invalid-name               |86          |
++---------------------------+------------+
+|pointless-string-statement |21          |
++---------------------------+------------+
+|missing-docstring          |20          |
++---------------------------+------------+
+|line-too-long              |7           |
++---------------------------+------------+
+|superfluous-parens         |6           |
++---------------------------+------------+
+|unused-variable            |4           |
++---------------------------+------------+
+|bad-builtin                |2           |
++---------------------------+------------+
+|unused-argument            |1           |
++---------------------------+------------+
+|unnecessary-semicolon      |1           |
++---------------------------+------------+
+|undefined-variable         |1           |
++---------------------------+------------+
+|too-many-locals            |1           |
++---------------------------+------------+
+|too-many-arguments         |1           |
++---------------------------+------------+
+|too-few-public-methods     |1           |
++---------------------------+------------+
+|simplifiable-if-statement  |1           |
++---------------------------+------------+
+|bad-continuation           |1           |
++---------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 2.25/10 (previous run: 2.30/10, -0.05)
+

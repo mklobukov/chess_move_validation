@@ -1,0 +1,407 @@
+************* Module main
+C:  8, 0: Exactly one space required after comma
+MOVE_VECTORS = {'k' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                         ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+MOVE_VECTORS = {'k' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+MOVE_VECTORS = {'k' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                        ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+MOVE_VECTORS = {'k' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                               ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+MOVE_VECTORS = {'k' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                                        ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+MOVE_VECTORS = {'k' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                                                ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+MOVE_VECTORS = {'k' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                                                         ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+MOVE_VECTORS = {'k' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                                                                ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+                'q' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                         ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+                'q' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+                'q' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                        ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+                'q' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                               ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+                'q' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                                        ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+                'q' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                                                ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+                'q' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                                                         ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+                'q' : [[0,1], [1,0], [-1,0], [0,-1], [-1,-1], [1,-1], [-1,1], [1,1]],
+                                                                                ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+                'p' : [[1,0]],
+                         ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+                'n' : [[2,-1], [2, 1], [1,2], [1,-2], [-2, 1], [-2,-1], [-1,-2], [-1,2]],
+                         ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+                'n' : [[2,-1], [2, 1], [1,2], [1,-2], [-2, 1], [-2,-1], [-1,-2], [-1,2]],
+                                         ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+                'n' : [[2,-1], [2, 1], [1,2], [1,-2], [-2, 1], [-2,-1], [-1,-2], [-1,2]],
+                                                ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+                'n' : [[2,-1], [2, 1], [1,2], [1,-2], [-2, 1], [-2,-1], [-1,-2], [-1,2]],
+                                                                  ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+                'n' : [[2,-1], [2, 1], [1,2], [1,-2], [-2, 1], [-2,-1], [-1,-2], [-1,2]],
+                                                                           ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+                'n' : [[2,-1], [2, 1], [1,2], [1,-2], [-2, 1], [-2,-1], [-1,-2], [-1,2]],
+                                                                                    ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+                'b' : [[1,1], [-1,-1], [1,-1], [-1,1]],
+                         ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+                'b' : [[1,1], [-1,-1], [1,-1], [-1,1]],
+                                 ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+                'b' : [[1,1], [-1,-1], [1,-1], [-1,1]],
+                                         ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+                'b' : [[1,1], [-1,-1], [1,-1], [-1,1]],
+                                                  ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+                'r' : [[0,1], [1,0], [0,-1], [-1,0]]
+                         ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+                'r' : [[0,1], [1,0], [0,-1], [-1,0]]
+                                ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+                'r' : [[0,1], [1,0], [0,-1], [-1,0]]
+                                       ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+                'r' : [[0,1], [1,0], [0,-1], [-1,0]]
+                                                ^ (bad-whitespace)
+C: 14, 0: Wrong continued indentation (remove 1 space).
+                }
+               |^ (bad-continuation)
+C: 22, 0: Wrong continued indentation (remove 1 space).
+             }
+            |^ (bad-continuation)
+C: 29, 0: Exactly one space required after comma
+def inBounds(x,y):
+              ^ (bad-whitespace)
+C: 30, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C: 64, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:110, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:143, 0: Line too long (147/100) (line-too-long)
+W:147, 0: Unnecessary semicolon (unnecessary-semicolon)
+C:162, 0: Line too long (127/100) (line-too-long)
+C:164, 0: Line too long (127/100) (line-too-long)
+C:172, 0: Line too long (127/100) (line-too-long)
+C:174, 0: Line too long (127/100) (line-too-long)
+C:187, 0: No space allowed before bracket
+    posOut += (str(numberToLetterMap[pos[1]]) + str(pos[0]+1) )
+                                                              ^ (bad-whitespace)
+C:221, 0: Line too long (104/100) (line-too-long)
+C:224, 0: Line too long (123/100) (line-too-long)
+C:242, 0: Exactly one space required around comparison
+    if pieceConfig[0] == 'r' and (y == 4 and (x == 5 or x==6 or x==7)):
+                                                         ^^ (bad-whitespace)
+C:242, 0: Exactly one space required around comparison
+    if pieceConfig[0] == 'r' and (y == 4 and (x == 5 or x==6 or x==7)):
+                                                                 ^^ (bad-whitespace)
+C:243, 0: Exactly one space required after comma
+        print(y,x)
+               ^ (bad-whitespace)
+C:244, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:275, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:293, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:295, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:299, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 24, 0: Invalid constant name "whitePieces" (invalid-name)
+C: 25, 0: Invalid constant name "blackPieces" (invalid-name)
+C: 27, 0: Invalid constant name "numberToLetterMap" (invalid-name)
+C: 29, 0: Invalid function name "inBounds" (invalid-name)
+C: 29, 0: Invalid argument name "x" (invalid-name)
+C: 29, 0: Invalid argument name "y" (invalid-name)
+C: 29, 0: Missing function docstring (missing-docstring)
+R: 30, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+C: 35, 0: Invalid function name "promptConfiguration" (invalid-name)
+C: 35, 0: Missing function docstring (missing-docstring)
+W: 36,14: Used builtin function 'input' (bad-builtin)
+C: 41, 0: Invalid function name "createPiece" (invalid-name)
+C: 43, 4: Invalid variable name "pieceType" (invalid-name)
+C: 45, 4: Invalid variable name "posHoriz" (invalid-name)
+C: 46, 4: Invalid variable name "posVert" (invalid-name)
+C: 47, 4: Invalid variable name "thisPiece" (invalid-name)
+C: 50, 0: Invalid function name "parseConfigurations" (invalid-name)
+C: 50, 0: Invalid argument name "configList" (invalid-name)
+C: 50, 0: Missing function docstring (missing-docstring)
+C: 52, 8: Invalid variable name "newPiece" (invalid-name)
+W: 58,14: Redefining name 'whitePieces' from outer scope (line 24) (redefined-outer-name)
+W: 58,27: Redefining name 'blackPieces' from outer scope (line 25) (redefined-outer-name)
+C: 58, 0: Invalid function name "initBoard" (invalid-name)
+C: 58, 0: Invalid argument name "whitePieces" (invalid-name)
+C: 58, 0: Invalid argument name "blackPieces" (invalid-name)
+C: 58, 0: Missing function docstring (missing-docstring)
+W: 59,51: Unused variable 'y' (unused-variable)
+W: 59,23: Unused variable 'x' (unused-variable)
+C: 67, 0: Invalid function name "findPiece" (invalid-name)
+C: 67, 0: Invalid argument name "piecesList" (invalid-name)
+C: 67, 0: Invalid argument name "pieceConfig" (invalid-name)
+C: 67, 0: Missing function docstring (missing-docstring)
+E: 73, 0: function already defined line 29 (function-redefined)
+C: 73, 0: Invalid function name "inBounds" (invalid-name)
+C: 73, 0: Invalid argument name "x" (invalid-name)
+C: 73, 0: Invalid argument name "y" (invalid-name)
+C: 73, 0: Missing function docstring (missing-docstring)
+W: 78,36: Redefining name 'blackPieces' from outer scope (line 25) (redefined-outer-name)
+W: 78,49: Redefining name 'whitePieces' from outer scope (line 24) (redefined-outer-name)
+C: 78, 0: Invalid function name "isKingExposed" (invalid-name)
+C: 78, 0: Invalid argument name "kingColor" (invalid-name)
+C: 78, 0: Invalid argument name "blackPieces" (invalid-name)
+C: 78, 0: Invalid argument name "whitePieces" (invalid-name)
+C: 78, 0: Missing function docstring (missing-docstring)
+C: 81, 4: Invalid variable name "attackerPieces" (invalid-name)
+C: 83, 8: Invalid variable name "attackedPieces" (invalid-name)
+C: 96, 8: Invalid variable name "allowedMoves" (invalid-name)
+W: 83, 8: Unused variable 'attackedPieces' (unused-variable)
+C:103, 0: Invalid function name "listMoves" (invalid-name)
+C:103, 0: Invalid argument name "pieceConfig" (invalid-name)
+C:103, 0: Invalid argument name "checkKing" (invalid-name)
+C:103, 0: Invalid argument name "checkForCheck" (invalid-name)
+C:103, 0: Missing function docstring (missing-docstring)
+R:103, 0: Too many local variables (16/15) (too-many-locals)
+C:105, 4: Invalid variable name "myColor" (invalid-name)
+C:106, 7: Comparison to None should be 'expr is None' (singleton-comparison)
+C:108, 8: Invalid variable name "myColor" (invalid-name)
+C:109,11: Comparison to None should be 'expr is None' (singleton-comparison)
+C:121, 8: Invalid variable name "allowedMoves" (invalid-name)
+C:122, 8: Invalid variable name "allowedMoves" (invalid-name)
+C:132, 4: Invalid variable name "allowedMoves" (invalid-name)
+C:137,12: Invalid variable name "d" (invalid-name)
+C:143,12: Invalid variable name "moveValid" (invalid-name)
+C:152, 0: Invalid function name "checkPawnMoves" (invalid-name)
+C:152, 0: Invalid argument name "myColor" (invalid-name)
+C:152, 0: Invalid argument name "y" (invalid-name)
+C:152, 0: Invalid argument name "x" (invalid-name)
+C:152, 0: Missing function docstring (missing-docstring)
+C:153, 4: Invalid variable name "pawnMoves" (invalid-name)
+C:156,11: Comparison to None should be 'expr is None' (singleton-comparison)
+C:158,38: Comparison to None should be 'expr is None' (singleton-comparison)
+C:168,11: Comparison to None should be 'expr is None' (singleton-comparison)
+C:170,38: Comparison to None should be 'expr is None' (singleton-comparison)
+C:179, 0: Invalid function name "findKing" (invalid-name)
+C:179, 0: Missing function docstring (missing-docstring)
+C:185, 0: Invalid function name "decodePosition" (invalid-name)
+C:185, 0: Missing function docstring (missing-docstring)
+C:186, 4: Invalid variable name "posOut" (invalid-name)
+C:187, 4: Invalid variable name "posOut" (invalid-name)
+C:190, 0: Invalid function name "createDecodedOutput" (invalid-name)
+C:190, 0: Invalid argument name "validMoves" (invalid-name)
+C:190, 0: Missing function docstring (missing-docstring)
+C:191, 4: Invalid variable name "decodedMoves" (invalid-name)
+C:193, 8: Invalid variable name "decodedMoves" (invalid-name)
+W:196,31: Redefining name 'blackPieces' from outer scope (line 25) (redefined-outer-name)
+W:196,44: Redefining name 'whitePieces' from outer scope (line 24) (redefined-outer-name)
+C:196, 0: Invalid function name "getCheckedKingColor" (invalid-name)
+C:196, 0: Invalid argument name "blackPieces" (invalid-name)
+C:196, 0: Invalid argument name "whitePieces" (invalid-name)
+C:196, 0: Missing function docstring (missing-docstring)
+C:200, 4: Invalid variable name "kingInCheck" (invalid-name)
+C:202, 8: Invalid variable name "kingInCheck" (invalid-name)
+C:204, 8: Invalid variable name "kingInCheck" (invalid-name)
+W:210,57: Redefining name 'blackPieces' from outer scope (line 25) (redefined-outer-name)
+W:210,70: Redefining name 'whitePieces' from outer scope (line 24) (redefined-outer-name)
+C:210, 0: Invalid function name "canMoveWithACheckToOpponent" (invalid-name)
+C:210, 0: Invalid argument name "pieceToMoveColor" (invalid-name)
+C:210, 0: Invalid argument name "blackPieces" (invalid-name)
+C:210, 0: Invalid argument name "whitePieces" (invalid-name)
+C:210, 0: Missing function docstring (missing-docstring)
+C:211, 4: Invalid variable name "checkResult" (invalid-name)
+C:212, 7: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+W:221,52: Redefining name 'blackPieces' from outer scope (line 25) (redefined-outer-name)
+W:221,65: Redefining name 'whitePieces' from outer scope (line 24) (redefined-outer-name)
+C:221, 0: Invalid function name "validateMove" (invalid-name)
+C:221, 0: Invalid argument name "pieceConfig" (invalid-name)
+C:221, 0: Invalid argument name "y" (invalid-name)
+C:221, 0: Invalid argument name "x" (invalid-name)
+C:221, 0: Invalid argument name "myColor" (invalid-name)
+C:221, 0: Invalid argument name "blackPieces" (invalid-name)
+C:221, 0: Invalid argument name "whitePieces" (invalid-name)
+C:221, 0: Invalid argument name "checkKing" (invalid-name)
+C:221, 0: Invalid argument name "checkForCheck" (invalid-name)
+C:221, 0: Missing function docstring (missing-docstring)
+R:221, 0: Too many arguments (9/5) (too-many-arguments)
+C:247, 0: Invalid function name "sameColor" (invalid-name)
+C:247, 0: Invalid argument name "y" (invalid-name)
+C:247, 0: Invalid argument name "x" (invalid-name)
+C:247, 0: Invalid argument name "myColor" (invalid-name)
+C:247, 0: Missing function docstring (missing-docstring)
+C:253, 0: Invalid function name "letterToNumber" (invalid-name)
+C:253, 0: Missing function docstring (missing-docstring)
+C:257, 0: Invalid function name "promptPieceToMove" (invalid-name)
+C:257, 0: Missing function docstring (missing-docstring)
+W:258,15: Used builtin function 'input' (bad-builtin)
+C:264, 8: Invalid attribute name "Color" (invalid-name)
+C:263, 8: Invalid attribute name "Type" (invalid-name)
+C:262, 8: Invalid attribute name "Config" (invalid-name)
+C:265, 8: Invalid attribute name "Pos" (invalid-name)
+C:260, 0: Missing class docstring (missing-docstring)
+C:268, 4: Invalid method name "getAllowedMoves" (invalid-name)
+C:268, 4: Missing method docstring (missing-docstring)
+E:268, 4: Method has no argument (no-method-argument)
+C:270, 4: Invalid method name "getVecs" (invalid-name)
+C:270, 4: Invalid argument name "allVecs" (invalid-name)
+C:270, 4: Missing method docstring (missing-docstring)
+E:270, 4: Method should have "self" as first argument (no-self-argument)
+C:273, 0: Invalid function name "printPieces" (invalid-name)
+C:273, 0: Invalid argument name "pieceList" (invalid-name)
+C:273, 0: Missing function docstring (missing-docstring)
+C:278, 0: Missing function docstring (missing-docstring)
+C:280, 8: Invalid variable name "whiteConfig" (invalid-name)
+C:281, 8: Invalid variable name "blackConfig" (invalid-name)
+C:282, 8: Invalid variable name "pieceToMove" (invalid-name)
+C:285, 8: Invalid variable name "x" (invalid-name)
+C:294, 4: Invalid variable name "validMoves" (invalid-name)
+W:285, 8: Unused variable 'x' (unused-variable)
+W:  2, 0: Unused add imported from operator (unused-import)
+
+
+Report
+======
+196 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |4      |4          |=          |50.00       |50.00    |
++---------+-------+-----------+-----------+------------+---------+
+|function |21     |21         |=          |4.76        |95.24    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    numpy (main)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |205    |67.66 |205      |=          |
++----------+-------+------+---------+-----------+
+|docstring |11     |3.63  |11       |=          |
++----------+-------+------+---------+-----------+
+|comment   |37     |12.21 |37       |=          |
++----------+-------+------+---------+-----------+
+|empty     |50     |16.50 |50       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |179    |179      |=          |
++-----------+-------+---------+-----------+
+|refactor   |3      |3        |=          |
++-----------+-------+---------+-----------+
+|warning    |18     |18       |=          |
++-----------+-------+---------+-----------+
+|error      |3      |3        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++--------------------------+------------+
+|message id                |occurrences |
++==========================+============+
+|invalid-name              |95          |
++--------------------------+------------+
+|bad-whitespace            |36          |
++--------------------------+------------+
+|missing-docstring         |24          |
++--------------------------+------------+
+|redefined-outer-name      |10          |
++--------------------------+------------+
+|superfluous-parens        |8           |
++--------------------------+------------+
+|singleton-comparison      |7           |
++--------------------------+------------+
+|line-too-long             |7           |
++--------------------------+------------+
+|unused-variable           |4           |
++--------------------------+------------+
+|bad-continuation          |2           |
++--------------------------+------------+
+|bad-builtin               |2           |
++--------------------------+------------+
+|unused-import             |1           |
++--------------------------+------------+
+|unnecessary-semicolon     |1           |
++--------------------------+------------+
+|too-many-locals           |1           |
++--------------------------+------------+
+|too-many-arguments        |1           |
++--------------------------+------------+
+|simplifiable-if-statement |1           |
++--------------------------+------------+
+|no-self-argument          |1           |
++--------------------------+------------+
+|no-method-argument        |1           |
++--------------------------+------------+
+|function-redefined        |1           |
++--------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -0.97/10 (previous run: -0.97/10, +0.00)
+

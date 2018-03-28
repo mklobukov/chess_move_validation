@@ -1,0 +1,261 @@
+************* Module main
+C: 13, 0: Wrong continued indentation (remove 1 space).
+                }
+               |^ (bad-continuation)
+C: 63, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:109, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:142, 0: Line too long (149/100) (line-too-long)
+W:146, 0: Unnecessary semicolon (unnecessary-semicolon)
+C:161, 0: Line too long (127/100) (line-too-long)
+C:163, 0: Line too long (127/100) (line-too-long)
+C:171, 0: Line too long (127/100) (line-too-long)
+C:173, 0: Line too long (127/100) (line-too-long)
+C:220, 0: Line too long (104/100) (line-too-long)
+C:223, 0: Line too long (123/100) (line-too-long)
+C:243, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:270, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:288, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:290, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:294, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 28, 0: Invalid function name "inBounds" (invalid-name)
+C: 28, 0: Invalid argument name "x" (invalid-name)
+C: 28, 0: Invalid argument name "y" (invalid-name)
+C: 28, 0: Missing function docstring (missing-docstring)
+R: 29, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+C: 34, 0: Invalid function name "promptConfiguration" (invalid-name)
+C: 34, 0: Missing function docstring (missing-docstring)
+W: 35,14: Used builtin function 'input' (bad-builtin)
+C: 40, 0: Invalid function name "createPiece" (invalid-name)
+C: 42, 4: Invalid variable name "pieceType" (invalid-name)
+C: 44, 4: Invalid variable name "posHoriz" (invalid-name)
+C: 45, 4: Invalid variable name "posVert" (invalid-name)
+C: 46, 4: Invalid variable name "thisPiece" (invalid-name)
+C: 49, 0: Invalid function name "parseConfigurations" (invalid-name)
+C: 49, 0: Invalid argument name "configList" (invalid-name)
+C: 49, 0: Missing function docstring (missing-docstring)
+C: 51, 8: Invalid variable name "newPiece" (invalid-name)
+C: 57, 0: Invalid function name "initBoard" (invalid-name)
+C: 57, 0: Invalid argument name "whitePieces" (invalid-name)
+C: 57, 0: Invalid argument name "blackPieces" (invalid-name)
+C: 57, 0: Missing function docstring (missing-docstring)
+W: 58,51: Unused variable 'y' (unused-variable)
+W: 58,23: Unused variable 'x' (unused-variable)
+C: 66, 0: Invalid function name "findPiece" (invalid-name)
+C: 66, 0: Invalid argument name "piecesList" (invalid-name)
+C: 66, 0: Invalid argument name "pieceConfig" (invalid-name)
+C: 66, 0: Missing function docstring (missing-docstring)
+E: 72, 0: function already defined line 28 (function-redefined)
+C: 72, 0: Invalid function name "inBounds" (invalid-name)
+C: 72, 0: Invalid argument name "x" (invalid-name)
+C: 72, 0: Invalid argument name "y" (invalid-name)
+C: 72, 0: Missing function docstring (missing-docstring)
+C: 77, 0: Invalid function name "isKingExposed" (invalid-name)
+C: 77, 0: Invalid argument name "kingColor" (invalid-name)
+C: 77, 0: Invalid argument name "blackPieces" (invalid-name)
+C: 77, 0: Invalid argument name "whitePieces" (invalid-name)
+C: 77, 0: Missing function docstring (missing-docstring)
+C: 80, 4: Invalid variable name "attackerPieces" (invalid-name)
+C: 82, 8: Invalid variable name "attackedPieces" (invalid-name)
+C: 95, 8: Invalid variable name "allowedMoves" (invalid-name)
+W: 82, 8: Unused variable 'attackedPieces' (unused-variable)
+C:102, 0: Invalid function name "listMoves" (invalid-name)
+C:102, 0: Invalid argument name "pieceConfig" (invalid-name)
+C:102, 0: Invalid argument name "checkKing" (invalid-name)
+C:102, 0: Invalid argument name "checkForCheck" (invalid-name)
+C:102, 0: Missing function docstring (missing-docstring)
+R:102, 0: Too many local variables (16/15) (too-many-locals)
+C:104, 4: Invalid variable name "myColor" (invalid-name)
+C:107, 8: Invalid variable name "myColor" (invalid-name)
+C:120, 8: Invalid variable name "allowedMoves" (invalid-name)
+C:121, 8: Invalid variable name "allowedMoves" (invalid-name)
+C:131, 4: Invalid variable name "allowedMoves" (invalid-name)
+C:136,12: Invalid variable name "d" (invalid-name)
+C:142,12: Invalid variable name "moveValid" (invalid-name)
+C:151, 0: Invalid function name "checkPawnMoves" (invalid-name)
+C:151, 0: Invalid argument name "myColor" (invalid-name)
+C:151, 0: Invalid argument name "y" (invalid-name)
+C:151, 0: Invalid argument name "x" (invalid-name)
+C:151, 0: Missing function docstring (missing-docstring)
+C:152, 4: Invalid variable name "pawnMoves" (invalid-name)
+C:178, 0: Invalid function name "findKing" (invalid-name)
+C:178, 0: Missing function docstring (missing-docstring)
+C:184, 0: Invalid function name "decodePosition" (invalid-name)
+C:184, 0: Missing function docstring (missing-docstring)
+C:185, 4: Invalid variable name "posOut" (invalid-name)
+C:186, 4: Invalid variable name "posOut" (invalid-name)
+E:186,19: Undefined variable 'numberToLetterMap' (undefined-variable)
+C:189, 0: Invalid function name "createDecodedOutput" (invalid-name)
+C:189, 0: Invalid argument name "validMoves" (invalid-name)
+C:189, 0: Missing function docstring (missing-docstring)
+C:190, 4: Invalid variable name "decodedMoves" (invalid-name)
+C:192, 8: Invalid variable name "decodedMoves" (invalid-name)
+C:195, 0: Invalid function name "getCheckedKingColor" (invalid-name)
+C:195, 0: Invalid argument name "blackPieces" (invalid-name)
+C:195, 0: Invalid argument name "whitePieces" (invalid-name)
+C:195, 0: Missing function docstring (missing-docstring)
+C:199, 4: Invalid variable name "kingInCheck" (invalid-name)
+C:201, 8: Invalid variable name "kingInCheck" (invalid-name)
+C:203, 8: Invalid variable name "kingInCheck" (invalid-name)
+C:209, 0: Invalid function name "canMoveWithACheckToOpponent" (invalid-name)
+C:209, 0: Invalid argument name "pieceToMoveColor" (invalid-name)
+C:209, 0: Invalid argument name "blackPieces" (invalid-name)
+C:209, 0: Invalid argument name "whitePieces" (invalid-name)
+C:209, 0: Missing function docstring (missing-docstring)
+C:210, 4: Invalid variable name "checkResult" (invalid-name)
+C:220, 0: Invalid function name "validateMove" (invalid-name)
+C:220, 0: Invalid argument name "pieceConfig" (invalid-name)
+C:220, 0: Invalid argument name "y" (invalid-name)
+C:220, 0: Invalid argument name "x" (invalid-name)
+C:220, 0: Invalid argument name "myColor" (invalid-name)
+C:220, 0: Invalid argument name "blackPieces" (invalid-name)
+C:220, 0: Invalid argument name "whitePieces" (invalid-name)
+C:220, 0: Invalid argument name "checkKing" (invalid-name)
+C:220, 0: Invalid argument name "checkForCheck" (invalid-name)
+C:220, 0: Missing function docstring (missing-docstring)
+R:220, 0: Too many arguments (9/5) (too-many-arguments)
+C:246, 0: Invalid function name "sameColor" (invalid-name)
+C:246, 0: Invalid argument name "y" (invalid-name)
+C:246, 0: Invalid argument name "x" (invalid-name)
+C:246, 0: Invalid argument name "myColor" (invalid-name)
+C:246, 0: Missing function docstring (missing-docstring)
+C:252, 0: Invalid function name "letterToNumber" (invalid-name)
+C:252, 0: Missing function docstring (missing-docstring)
+C:256, 0: Invalid function name "promptPieceToMove" (invalid-name)
+C:256, 0: Missing function docstring (missing-docstring)
+W:257,15: Used builtin function 'input' (bad-builtin)
+C:263, 8: Invalid attribute name "Color" (invalid-name)
+C:262, 8: Invalid attribute name "Type" (invalid-name)
+C:261, 8: Invalid attribute name "Config" (invalid-name)
+C:264, 8: Invalid attribute name "Pos" (invalid-name)
+C:259, 0: Missing class docstring (missing-docstring)
+R:259, 0: Too few public methods (0/2) (too-few-public-methods)
+C:268, 0: Invalid function name "printPieces" (invalid-name)
+C:268, 0: Invalid argument name "pieceList" (invalid-name)
+C:268, 0: Missing function docstring (missing-docstring)
+C:273, 0: Missing function docstring (missing-docstring)
+C:275, 8: Invalid variable name "whiteConfig" (invalid-name)
+C:276, 8: Invalid variable name "blackConfig" (invalid-name)
+C:277, 8: Invalid variable name "pieceToMove" (invalid-name)
+C:280, 8: Invalid variable name "x" (invalid-name)
+C:289, 4: Invalid variable name "validMoves" (invalid-name)
+W:280, 8: Unused variable 'x' (unused-variable)
+
+
+Report
+======
+191 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |4          |-2.00      |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |21     |21         |=          |4.76        |95.24    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    numpy (main)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |200    |67.11 |205      |-5.00      |
++----------+-------+------+---------+-----------+
+|docstring |11     |3.69  |11       |=          |
++----------+-------+------+---------+-----------+
+|comment   |37     |12.42 |37       |=          |
++----------+-------+------+---------+-----------+
+|empty     |50     |16.78 |50       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |126    |179      |-53.00     |
++-----------+-------+---------+-----------+
+|refactor   |4      |3        |+1.00      |
++-----------+-------+---------+-----------+
+|warning    |7      |18       |-11.00     |
++-----------+-------+---------+-----------+
+|error      |2      |3        |-1.00      |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++--------------------------+------------+
+|message id                |occurrences |
++==========================+============+
+|invalid-name              |89          |
++--------------------------+------------+
+|missing-docstring         |22          |
++--------------------------+------------+
+|superfluous-parens        |7           |
++--------------------------+------------+
+|line-too-long             |7           |
++--------------------------+------------+
+|unused-variable           |4           |
++--------------------------+------------+
+|bad-builtin               |2           |
++--------------------------+------------+
+|unnecessary-semicolon     |1           |
++--------------------------+------------+
+|undefined-variable        |1           |
++--------------------------+------------+
+|too-many-locals           |1           |
++--------------------------+------------+
+|too-many-arguments        |1           |
++--------------------------+------------+
+|too-few-public-methods    |1           |
++--------------------------+------------+
+|simplifiable-if-statement |1           |
++--------------------------+------------+
+|function-redefined        |1           |
++--------------------------+------------+
+|bad-continuation          |1           |
++--------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 2.30/10 (previous run: -0.97/10, +3.27)
+
